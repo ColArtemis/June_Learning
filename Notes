@@ -6,3 +6,12 @@ b = 1.5       float
 c = "Hello!"  str
 d = True      bool
 e = None      NoneType (this type only has one value N, used for when we want to represent the absence of a value)
+
+f strings (formatted strings)
+print (f"Hello, {name}")          instead of using the normal print("Hello, " + name)
+
+
+conditions
+n = input("Number: ")
+if n > 0:
+  print("n is positive")
