@@ -1,0 +1,8 @@
+python
+
+Variables
+eg a = 28     int
+b = 1.5       float
+c = "Hello!"  str
+d = True      bool
+e = None      NoneType (this type only has one value N, used for when we want to represent the absence of a value)
