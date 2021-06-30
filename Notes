@@ -15,3 +15,11 @@ conditions
 n = input("Number: ")
 if n > 0:
   print("n is positive")
+elif n < 0:
+  print("n is negative")
+else:
+  print("n is Zero")
+
+  you have to call to be an integer or you'll meet an error of the compiler thinking it's a string
+  so the first line would now be
+  n = int(input("Number: "))
