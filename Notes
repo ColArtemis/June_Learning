@@ -1,5 +1,6 @@
 python
 
+one of the ways for adding comments in python use the # sign (everything following the sign on that line is a comment)
 Variables
 eg a = 28     int
 b = 1.5       float
@@ -23,3 +24,36 @@ else:
   you have to call to be an integer or you'll meet an error of the compiler thinking it's a string
   so the first line would now be
   n = int(input("Number: "))
+
+Sequences
+1. string sequence
+using the square bracket[] it gives you access to one particular element in the Sequence
+example
+name = "Harry"
+print(name[0])
+
+in programming generally we start counting from item 0
+
+as a string is a sequence of characters the above program will just print out the first letter H
+
+but we could use a different type of sequencing for the index
+e.g.
+2. Lists sequencing
+name = ["Harry", "Hermione", "Ron"]
+print(names)
+or print(name[0])
+
+3. Tuple
+used to store a number of values together that aren't going to change
+as opposed to the [] square brackets of the previous sequences tuple uses ()parenthesis
+example plotting a graph with two axis x and y
+coordinatex = 10.0
+coordinatey = 20.0
+with tuple we can say
+coordinate = (10.0, 20.0)
+
+Data Structures
+list - sequence of mutable values
+tuple - sequence of immutable values
+set - collection of unique values
+dict - collection of key-value pairs
